@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: tomato;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#nav-btns {
+  width: 100%;
+  max-width: 300px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#nav-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#hero-section {
+  min-height: 100vh;
+  background-image: url(herocheese.jpg);
+  background-repeat: none;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 100px;
+  color: wheat;
+  margin-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  padding: 20px 40px;
+  font-size: 30px;
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+}
+
+#hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#hero-text {
+}
