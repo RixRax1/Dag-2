@@ -12,9 +12,9 @@
         <a id="nav-logo" href="#">Say cheese</a>
         <div id="nav-btns">
           <ul>
-            <li><a href="#">Meny</a></li>
-            <li><a href="#">Om oss</a></li>
-            <li><a href="#">Booking</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Say cheese</a></li>
           </ul>
         </div>
       </nav>
@@ -24,15 +24,22 @@
       <section id="hero-section">
         <div id="hero-text">
           <h1>Say cheese</h1>
-          <div id="hero-btns">
-            <button>Meny</button>
-            <button>Booking</button>
-          </div>
+          <form action="/last-opp" method="post" enctype="multipart/form-data">
+            <input
+              id="bilde"
+              class="visually-hidden"
+              type="file"
+              name="bilde"
+              accept="image/*"
+            />
+            <label class="upload-btn" for="bilde">Choose a picture</label>
+            <button id="submit-btn" type="submit">Upload</button>
+          </form>
         </div>
       </section>
       <section id="welcome-section">
         <div>
-          <h2>Velkommen til</h2>
+          <h2>We all love the cheese</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga id
             amet corrupti numquam sapiente impedit maiores tempore, facere
@@ -41,10 +48,9 @@
           </p>
         </div>
         <div>
-          <h3>Bli kjent</h3>
           <div>
             <article>
-              <h4>Lunsj</h4>
+              <h4>Cheese</h4>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
                 eius!
@@ -52,7 +58,7 @@
               <a href="#">Åpne</a>
             </article>
             <article>
-              <h4>Middag</h4>
+              <h4>Events</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloribus, id?
@@ -60,7 +66,7 @@
               <a href="#">Åpne</a>
             </article>
             <article>
-              <h4>Vin</h4>
+              <h4>Travel</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
                 velit.
@@ -70,14 +76,16 @@
           </div>
         </div>
       </section>
-      <section id="booking-section">
+      <section id="gallery-section">
         <div>
-          <h2>Minner for livet</h2>
-          <p>Skap minner som varer livet ut</p>
-          <a href="#">Bestill lokal</a>
+          <h2>Memory for life</h2>
+          <p>
+            Create memories that last a life time, or what we say in Norway:
+            "Minner for livet!"
+          </p>
         </div>
         <figure>
-          <img src="" alt="Bilde kommer" />
+          <img src="" alt="Gallery is coming" />
         </figure>
       </section>
     </main>
