@@ -54,37 +54,33 @@ a {
 
 h1 {
   font-size: 100px;
-  color: #181818;
+  color: #040404;
   margin-bottom: 30px;
 }
 
 #hero-text form {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
 .upload-btn,
 #submit-btn {
   display: inline-block;
-  width: 240px;
-  height: 68px;
-  padding: 20px;
+  padding: 10px 20px;
   font-size: 20px;
   font-family: inherit;
-  color: black;
-  background-color: #b0cde6;
-  border: none;
-  border-radius: 5px;
+  color: #0f1419;
+  background-color: white;
+  border: 1px solid #cfd9de;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .upload-btn {
-  cursor: pointer;
   text-align: center;
-}
-
-#submit-btn {
-  cursor: pointer;
 }
 
 .visually-hidden {
